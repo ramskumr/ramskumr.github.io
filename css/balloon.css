@@ -1,0 +1,491 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {  
+  color: #5a5a5a;
+}
+
+html,body{height:100%;}
+
+a{
+  color: black;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>li>.nav-about:hover {
+  color: #01adbb;
+}
+
+.navbar-default .navbar-nav>li>.nav-service:hover {
+  color: #f28e36;
+}
+
+.navbar-default .navbar-nav>li>.nav-work:hover {
+  color: #e8474c;
+}
+
+.navbar-default .navbar-nav>li>.nav-contact:hover {
+  color: #63539c;
+}
+
+.nav>li>a {
+  padding: 10px 30px;
+}
+
+.navbar-nav>li>a {
+ line-height: 10px;
+}
+
+ul.navbar-nav{
+  padding-top: 10px;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.logo-img {
+  margin-top: -30px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+  font-family: 'Roboto-Light', Helvetica,Arial,sans-serif;  
+}
+
+.navbar{
+    padding: 25px 0 35px 0;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {  
+  height:100%;
+  margin-bottom: 60px;  
+  /*margin-top: 110px;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 40%;
+  bottom: 0;  
+}
+
+.carousel-caption > h1, .carousel-caption > p{
+  font-family: 'Roboto-Light', Helvetica,Arial,sans-serif;
+}
+
+.carousel-caption > h1 {
+  font-size: 50px;
+}
+
+.carousel-caption>p{
+    margin-top: 40px;  
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {  
+  height:100%;
+  background-color: #777;
+}
+.carousel-inner{
+  height:100%;
+}
+.carousel-inner>.active {
+  height:100%;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;  
+  height:100%;
+}
+
+.fill, .about-image{
+  width:100%;
+  height:100%;
+  background-position:center;
+  background-size:cover;
+}
+
+.about-panel{
+  height: 100%;
+}
+
+.p-who-are-we, .para-contact{
+  line-height: 200%;
+  font-size: 18px;
+  font-family: 'Roboto-Light', Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.head-title{
+  font-family: 'Roboto-Medium', Helvetica,Arial,sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+
+.agency-facts-title, .agency-facts-number{
+  color: #8F8F8F;
+}
+
+.agency-facts-number{
+  font-family: 'Roboto-Light', Helvetica,Arial,sans-serif; 
+  font-size: 70px;
+}
+
+.agency-facts-text, .contacts-col-title{
+  font-family: 'Roboto-Medium', Helvetica,Arial,sans-serif; 
+}
+
+.contacts-col-title{
+  padding-bottom: 15px;
+}
+
+
+.team-member-name, .team-member-designation, .what-we-made-name, .what-we-made-category, .agency-facts-title{
+  font-family: 'Roboto-Regular', Helvetica,Arial,sans-serif;
+}
+
+.team-member-name, .what-we-made-name{
+  font-weight: 500;
+  color: #000;
+}
+.team-member-designation, .what-we-made-category, .agency-facts-text{
+  color: #b8b8b8;
+}
+
+.image-overlay {
+    position:relative;
+    overflow:hidden;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+}
+ 
+.team-member-caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(71, 71, 71, 0.4);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.mail_icon{
+  margin-top: 45%;
+  width: 24px;
+}
+
+.contacts-column{
+  padding-bottom: 20px;
+}
+
+.more-services-column{
+  text-align: center;
+}
+.more-services-img{  
+  width: 254px;
+  height: 242px;
+}
+
+.email{
+  color: #ad98da;
+}
+.email:hover{
+  color: #fff;
+}
+
+.balloon {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.balloon .col-lg-3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.balloon h2 {
+  font-weight: normal;
+}
+.balloon .col-lg-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.more-services-column, .what-we-made-column{
+  padding-bottom: 30px;
+}
+
+
+.more-services-bottom-text{    
+    font-family: 'Roboto-Light', Helvetica,Arial,sans-serif;
+  }
+
+.agency-facts-img{
+  height: 48px
+}
+
+.mr-srvc-img{
+  position: relative;
+  width: 100%;
+}
+.mr-srvc-img > h2{
+  font-family: 'Roboto-Bold-Condensed', Helvetica,Arial,sans-serif;  
+  position: absolute; 
+  top: 195px; 
+  left: 0; 
+  width: 100%;
+  color: white;
+  font-size: 21px;
+}
+
+.team-member-img-hover{
+  position: relative;  
+}
+
+.team-member-img-hover > .mail-icon{  
+  position: absolute; 
+  top: 43%; 
+  left: 0; 
+  width: 100%;
+  color: white;
+  font-size: 21px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .balloon {
+    padding-right: 0;
+    padding-left: 0;
+  } 
+
+  .navbar .container {
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .nav{
+    float: right;
+  }
+
+  .nav > li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .nav > li > a{
+    padding-top: 0;
+    padding-bottom: 0;
+    border-right: 1px solid #ccc;
+  }
+
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav>.active>a {
+  color: #3879D9;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }  
+}
+
+/* ipad */
+@media (max-width: 992px) {
+  .carousel-caption > h1 {
+    font-size: 35px;
+  }
+  .container-200{
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .container-what-we-do-best{
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px; 
+  }
+  .p-who-are-we, .para-contact{    
+    padding-left: 25px;
+    padding-right: 25px;    
+  }
+  .who-we-are-text{
+    padding-bottom: 40px;
+  }
+  .services-text{
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .more-services-bottom-text{
+    text-align: center;
+    padding: 15px 0 0 0;
+  }
+
+  .container-more-services, .what-we-made-container-margin{
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .team-member-image, .what-we-do-img-cirlce, .works_imgs{
+    width: 243px;
+    height: 243px;
+  }
+}
+
+/* Normal screen */
+@media (min-width: 992px) {
+  .navbar .container {
+    width: auto;
+    margin-left: 200px;
+    margin-right: 125px;
+  }
+  
+  .who-we-are-text{
+    padding-bottom: 40px;
+  }
+  .p-who-are-we, .para-contact{
+    padding-left: 50px;
+    padding-right: 50px;    
+  }
+  .container-200{
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .container-what-we-do-best{
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px; 
+  }
+  .services-text{
+    width: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+  }
+
+  .more-services-bottom-text{
+    text-align: center;
+    padding: 15px 0 0 0;
+  }
+  .container-more-services, .what-we-made-container-margin{
+    width: auto;
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+
+  .what-we-do-img-cirlce{
+    width: 100%;    
+  }
+
+  .team-member-image{
+    width: 174px;
+    height: 174px;
+  }
+
+  .works_imgs{
+    width: 243px;
+    height: 243px;
+  }  
+}
+
+/* for extra small devices */
+@media (max-width: 767px) { 
+
+  .navbar-collapse{
+    margin-top: 30px;
+  }
+
+  .carousel-caption > h1 {
+    font-size: 25px;
+  }
+
+  .container-200{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container-what-we-do-best{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
+
+  .p-who-are-we, .para-contact{    
+    padding-left: 10px;
+    padding-right: 10px;    
+  }
+
+  .who-we-are-text{
+    padding-bottom: 40px;
+  }
+
+  .services-circle-image{
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .services-text{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .more-services-bottom-text{
+    text-align: center;
+    padding: 15px 0 0 0;
+  }
+
+  .container-more-services, .what-we-made-container-margin{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .team-member-image, .what-we-do-img-cirlce, .works_imgs{
+    width: 243px;
+    height: 243px;
+  }
+
+}

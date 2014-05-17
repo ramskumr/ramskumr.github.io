@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Roboto-Thin';         
+  src: local('Roboto-Thin'), 
+       local('Roboto'), 
+       url('../fonts/Roboto-Thin.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto-Light';         
+  src: local('Roboto-Light'), 
+       local('Roboto'), 
+       url('../fonts/Roboto-Light.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';         
+  src: local('Roboto-Medium'), 
+       local('Roboto'), 
+       url('../fonts/Roboto-Medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), 
+       local('Roboto'), 
+       url('../fonts/Roboto-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto-Bold-Condensed';
+  src: local('Roboto-Bold-Condensed'), 
+       local('Roboto'), 
+       url('../fonts/Roboto-BoldCondensed.ttf') format('truetype')
+}
