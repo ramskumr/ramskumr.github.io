@@ -278,6 +278,10 @@ ul.navbar-nav{
   font-size: 21px;
 }
 
+.works_imgs{
+  width: 235px;
+  height: 177px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -366,7 +370,7 @@ ul.navbar-nav{
     margin-right: 50px;
   }
 
-  .team-member-image, .what-we-do-img-cirlce, .works_imgs{
+  .team-member-image, .what-we-do-img-cirlce{
     width: 243px;
     height: 243px;
   }
@@ -421,11 +425,6 @@ ul.navbar-nav{
   .team-member-image{
     width: 174px;
     height: 174px;
-  }
-
-  .works_imgs{
-    width: 243px;
-    height: 243px;
   }  
 }
 
@@ -483,7 +482,7 @@ ul.navbar-nav{
     margin-right: 10px;
   }
 
-  .team-member-image, .what-we-do-img-cirlce, .works_imgs{
+  .team-member-image, .what-we-do-img-cirlce{
     width: 243px;
     height: 243px;
   }

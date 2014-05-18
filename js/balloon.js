@@ -28,7 +28,7 @@ function imageHoverEffects (attributes) {
   );
 }
 
-var hoverEffects = ['.ram-profile-image', '.jenni-profile-image', '.theo-profile-image', '.dev-profile-image', '.pixie-profile-image', ".branding", ".content_strategy", ".ui_ux_web", ".video_production", ".marketing_communications", ".digital_campaigns", ".see_all_services_img", ".see_more_works", ".simple_subway",".fresh_campaign", ".find_my_doctor", ".beauty_retouch", ".srm_blood_donation", ".supplementary", ".arch", ".audi"];
+var hoverEffects = ['.ram-profile-image', '.jenni-profile-image', '.theo-profile-image', '.dev-profile-image', '.pixie-profile-image', ".branding", ".content_strategy", ".ui_ux_web", ".video_production", ".marketing_communications", ".digital_campaigns", ".see_all_services_img", ".see_more_works"];
 
 $.each( hoverEffects, function( i, val ) {
   $(val+".hover").hide();  
