@@ -83,7 +83,7 @@ ul.navbar-nav{
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  top: 40%;
+  top: 47%;
   bottom: 0;  
 }
 
